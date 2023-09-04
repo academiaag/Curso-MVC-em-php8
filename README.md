@@ -4,7 +4,7 @@
 
 ## Sobre o Curso :rocket:
 
-Este curso aborda os conceitos essenciais do MVC e fornece exemplos práticos e projetos para ajudar você a dominar a criação de aplicativos web escaláveis e organizados em PHP 8. Ao seguir este curso, você aprenderá:
+Este curso aborda os conceitos essenciais do MVC e fornece exemplo prático e projeto para ajudar você a dominar a criação de aplicativos web escaláveis e organizados em PHP 8. Ao seguir este curso, você aprenderá:
 
 - :fish_cake: Como estruturar seu código em uma arquitetura MVC para uma melhor organização.
 - :fish_cake: A separação clara de responsabilidades entre Modelos, Visualizações e Controladores.
