@@ -1,0 +1,8 @@
+Olá tudo bem?
+Este MVC você usará sempre que estiver a iniciar um projecto.
+Porém terá de configurar alguns elementos como a base de dados, o link, o tema e outros componentes que você poderá estar usando dependendo do tipo de projecto que estiver fazendo.
+
+Bem boas práticas e bons estudos.
+
+Visite-> https://academiaag.nl/
+Visite-> https://academiaag.com/

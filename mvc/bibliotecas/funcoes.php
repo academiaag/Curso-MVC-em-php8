@@ -1,0 +1,1 @@
+/*funções a usar no projecto*/

@@ -1,0 +1,50 @@
+<?php
+
+          if(isset($_SESSION['tp'])){
+            
+            echo '<div class="col-md-12">';
+
+              if($_SESSION['tp'] == 'sucesso'){
+
+                  echo '<div class="alert alert-success" role="alert">
+                        '.$_SESSION['txt'].'
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                      </div>';
+              }else{
+
+                  echo '<div class="alert alert-danger" role="alert">
+                        '.$_SESSION['txt'].'
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                      </div>';
+              }
+              echo '</div>';
+
+            unset($_SESSION['tp']);
+            unset($_SESSION['txt']);
+          }
+
+ ?>
+      
+      <div class="table-responsive small">
+        <table class="table table-striped table-sm">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Nome</th>
+              <th scope="col">Email</th>
+              <th scope="col" style="width: 10%;">Acções</th>
+            </tr>
+          </thead>
+          <tbody>
+
+              <?=listar_usurios($this->view->usuarios)?>
+            
+
+            
+          </tbody>
+        </table>
+      </div>
+
+
+    
+
